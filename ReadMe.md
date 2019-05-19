@@ -1,4 +1,4 @@
-# NorthwindTraders
+# Evil Corp Trading
 
 Northwind Traders is a sample application built using ASP.NET Core and Entity Framework Core. The architecture and design of the project is explained in the video:
 
@@ -22,28 +22,7 @@ You will need the following tools:
 * [.NET Core SDK 2.2](https://www.microsoft.com/net/download/dotnet-core/2.2)
 
 ### Setup
-Follow these steps to get your development environment set up:
-
-  1. Clone the repository
-  2. At the root directory, restore required packages by running:
-     ```
-     dotnet restore
-     ```
-  3. Next, build the solution by running:
-     ```
-     dotnet build
-     ```
-  4. Next, within the `Northwind.WebUI\ClientApp` directory, launch the front end by running:
-     ```
-     npm start
-     ```
-  5. Once the front end has started, within the `Northwind.WebUI` directory, launch the back end by running:
-     ```
-	 dotnet run
-	 ```
-  5. Launch [http://localhost:52468/](http://localhost:52468/) in your browser to view the Web UI
-  
-  6. Launch [http://localhost:52468/api](http://localhost:52468/api) in your browser to view the API
+Soon to come!
 
 ## Technologies
 * .NET Core 2.2
