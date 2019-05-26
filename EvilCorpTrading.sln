@@ -21,35 +21,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2D23A6DA-1625-43F3-8B50-7A136082E850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Common", "EvilCorpTrading.Common\EvilCorpTrading.Common.csproj", "{4A4C0A8A-4F3E-4331-A45A-7E2C3A4E7335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Common", "EvilCorpTrading.Common\EvilCorpTrading.Common.csproj", "{4A4C0A8A-4F3E-4331-A45A-7E2C3A4E7335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Application", "EvilCorpTrading.Application\EvilCorpTrading.Application.csproj", "{FB990087-0E79-4459-91F4-502341513557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Application", "EvilCorpTrading.Application\EvilCorpTrading.Application.csproj", "{FB990087-0E79-4459-91F4-502341513557}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7A434868-02B3-48DC-B8A3-3ED8090B0F2A} = {7A434868-02B3-48DC-B8A3-3ED8090B0F2A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Domain", "EvilCorpTrading.Domain\EvilCorpTrading.Domain.csproj", "{7A434868-02B3-48DC-B8A3-3ED8090B0F2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Domain", "EvilCorpTrading.Domain\EvilCorpTrading.Domain.csproj", "{7A434868-02B3-48DC-B8A3-3ED8090B0F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Infrastructure", "EvilCorpTrading.Infrastructure\EvilCorpTrading.Infrastructure.csproj", "{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Infrastructure", "EvilCorpTrading.Infrastructure\EvilCorpTrading.Infrastructure.csproj", "{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FB990087-0E79-4459-91F4-502341513557} = {FB990087-0E79-4459-91F4-502341513557}
 		{4A4C0A8A-4F3E-4331-A45A-7E2C3A4E7335} = {4A4C0A8A-4F3E-4331-A45A-7E2C3A4E7335}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Persistence", "EvilCorpTrading.Persistence\EvilCorpTrading.Persistence.csproj", "{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Application.Tests", "EvilCorpTrading.Application.Tests\EvilCorpTrading.Application.Tests.csproj", "{3B8E2214-0E4C-4195-90DD-7356BA049D9B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FB990087-0E79-4459-91F4-502341513557} = {FB990087-0E79-4459-91F4-502341513557}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Application.Tests", "EvilCorpTrading.Application.Tests\EvilCorpTrading.Application.Tests.csproj", "{3B8E2214-0E4C-4195-90DD-7356BA049D9B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{FB990087-0E79-4459-91F4-502341513557} = {FB990087-0E79-4459-91F4-502341513557}
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE} = {DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Domain.Tests", "EvilCorpTrading.Domain.Tests\EvilCorpTrading.Domain.Tests.csproj", "{6E41402E-927F-4F06-9A8B-46B4F5EFC98B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilCorpTrading.Domain.Tests", "EvilCorpTrading.Domain.Tests\EvilCorpTrading.Domain.Tests.csproj", "{6E41402E-927F-4F06-9A8B-46B4F5EFC98B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7A434868-02B3-48DC-B8A3-3ED8090B0F2A} = {7A434868-02B3-48DC-B8A3-3ED8090B0F2A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilCorpTrading.Persistence", "EvilCorpTrading.Persistence\EvilCorpTrading.Persistence.csproj", "{1464A2EF-C790-4B41-A114-754C0F997F71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB990087-0E79-4459-91F4-502341513557} = {FB990087-0E79-4459-91F4-502341513557}
 	EndProjectSection
 EndProject
 Global
@@ -74,10 +73,6 @@ Global
 		{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B8E2214-0E4C-4195-90DD-7356BA049D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B8E2214-0E4C-4195-90DD-7356BA049D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B8E2214-0E4C-4195-90DD-7356BA049D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,6 +81,10 @@ Global
 		{6E41402E-927F-4F06-9A8B-46B4F5EFC98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E41402E-927F-4F06-9A8B-46B4F5EFC98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E41402E-927F-4F06-9A8B-46B4F5EFC98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1464A2EF-C790-4B41-A114-754C0F997F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1464A2EF-C790-4B41-A114-754C0F997F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1464A2EF-C790-4B41-A114-754C0F997F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1464A2EF-C790-4B41-A114-754C0F997F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,9 +98,9 @@ Global
 		{FB990087-0E79-4459-91F4-502341513557} = {5CD16B78-1506-4D47-8D83-C71607F77F72}
 		{7A434868-02B3-48DC-B8A3-3ED8090B0F2A} = {5CD16B78-1506-4D47-8D83-C71607F77F72}
 		{79C6E9AB-E3B7-4165-AABD-B97DA2F66B87} = {BC322746-475A-4BF6-A103-0FCEA33128BC}
-		{DFD7A5EF-27C8-4762-AAE7-6AB413EE9EFE} = {BC322746-475A-4BF6-A103-0FCEA33128BC}
 		{3B8E2214-0E4C-4195-90DD-7356BA049D9B} = {E7065B06-DB9F-497C-82FA-2D48691627A3}
 		{6E41402E-927F-4F06-9A8B-46B4F5EFC98B} = {E7065B06-DB9F-497C-82FA-2D48691627A3}
+		{1464A2EF-C790-4B41-A114-754C0F997F71} = {BC322746-475A-4BF6-A103-0FCEA33128BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDB96962-1878-41F7-9C54-00A01CD81885}
